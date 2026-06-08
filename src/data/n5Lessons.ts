@@ -14,7 +14,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "gunung",
         onyomi: ["サン","セン"],
         kunyomi: ["やま"],
-        examples: [{"word":"山","reading":"やま","meaning":"gunung"},{"word":"築山","reading":"つきやま","meaning":"kosakata terkait gunung"}]
+        examples: [{"word": "山", "reading": "やま", "meaning": "gunung"}, {"word": "富士山", "reading": "ふじさん", "meaning": "Gunung Fuji"}, {"word": "登山", "reading": "とざん", "meaning": "mendaki gunung"}]
       },
       {
         id: "n5-l1-かわ-5ddd",
@@ -22,7 +22,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "sungai",
         onyomi: ["セン"],
         kunyomi: ["かわ"],
-        examples: [{"word":"川","reading":"かわ","meaning":"sungai"},{"word":"川口","reading":"かわぐち","meaning":"mulut"}]
+        examples: [{"word": "川", "reading": "かわ", "meaning": "sungai"}, {"word": "インダス川", "reading": "インダスが", "meaning": "sungai"}]
       },
       {
         id: "n5-l1-た-7530",
@@ -30,7 +30,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "sawah",
         onyomi: ["デン"],
         kunyomi: ["た"],
-        examples: [{"word":"田","reading":"た","meaning":"sawah"},{"word":"水田","reading":"すいでん","meaning":"kosakata terkait sawah"}]
+        examples: [{"word": "田ぼ", "reading": "たんぼ", "meaning": "sawah"}, {"word": "水田", "reading": "すいでん", "meaning": "sawah"}, {"word": "油田", "reading": "ゆでん", "meaning": "oil field"}]
       },
       {
         id: "n5-l1-か-65e5",
@@ -38,7 +38,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "hari; matahari",
         onyomi: ["ジツ","ニチ"],
         kunyomi: ["-か","-び","ひ"],
-        examples: [{"word":"日","reading":"-か","meaning":"hari; matahari"},{"word":"日本","reading":"にほん","meaning":"kosakata terkait hari; matahari"}]
+        examples: [{"word": "日", "reading": "ひ", "meaning": "hari; matahari"}, {"word": "日本", "reading": "にほん", "meaning": "Jepang"}, {"word": "休日", "reading": "きゅうじつ", "meaning": "hari libur"}]
       },
       {
         id: "n5-l1-つき-6708",
@@ -46,7 +46,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "bulan",
         onyomi: ["ガツ","ゲツ"],
         kunyomi: ["つき"],
-        examples: [{"word":"月","reading":"つき","meaning":"bulan"},{"word":"名月","reading":"めいげつ","meaning":"kosakata terkait bulan"}]
+        examples: [{"word": "一月", "reading": "いちがつ", "meaning": "Januari"}, {"word": "今月", "reading": "こんげつ", "meaning": "bulan ini"}]
       },
       {
         id: "n5-l1-ひ-706b",
@@ -54,7 +54,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "api",
         onyomi: ["カ"],
         kunyomi: ["-び","ひ","ほ-"],
-        examples: [{"word":"火","reading":"-び","meaning":"api"},{"word":"灯火","reading":"あかり","meaning":"kosakata terkait api"}]
+        examples: [{"word": "火", "reading": "ひ", "meaning": "api"}, {"word": "火曜日", "reading": "かようび", "meaning": "Tuesday"}]
       },
       {
         id: "n5-l1-みす-6c34",
@@ -62,7 +62,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "air",
         onyomi: ["スイ"],
         kunyomi: ["みず","みず-"],
-        examples: [{"word":"水","reading":"みず","meaning":"air"},{"word":"水田","reading":"すいでん","meaning":"kosakata terkait air"}]
+        examples: [{"word": "水", "reading": "みず", "meaning": "air"}, {"word": "水曜日", "reading": "すいようび", "meaning": "Rabu"}, {"word": "水田", "reading": "すいでん", "meaning": "sawah"}, {"word": "水道", "reading": "すいどう", "meaning": "pekerjaan"}]
       },
       {
         id: "n5-l1-き-6728",
@@ -70,7 +70,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "pohon; kayu",
         onyomi: ["ボク","モク"],
         kunyomi: ["き","こ-"],
-        examples: [{"word":"木","reading":"き","meaning":"pohon; kayu"},{"word":"定木","reading":"じょうぎ","meaning":"kosakata terkait pohon; kayu"}]
+        examples: [{"word": "木", "reading": "き", "meaning": "pohon; kayu"}, {"word": "木薩日", "reading": "もくようひ", "meaning": "Kamis"}]
       },
       {
         id: "n5-l1-か-ね-91d1",
@@ -78,7 +78,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "emas; uang",
         onyomi: ["キン","コン","ゴン"],
         kunyomi: ["-がね","かな-","かね"],
-        examples: [{"word":"金","reading":"-がね","meaning":"emas; uang"},{"word":"金曜","reading":"きんよう","meaning":"kosakata terkait emas; uang"}]
+        examples: [{"word": "お金", "reading": "おかね", "meaning": "uang"}, {"word": "金", "reading": "きん", "meaning": "emas; uang"}, {"word": "金曜日", "reading": "きんようび", "meaning": "Jumat"}]
       },
       {
         id: "n5-l1-つち-571f",
@@ -86,7 +86,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "tanah",
         onyomi: ["ト","ド"],
         kunyomi: ["つち"],
-        examples: [{"word":"土","reading":"つち","meaning":"tanah"},{"word":"土曜","reading":"どよう","meaning":"kosakata terkait tanah"}]
+        examples: [{"word": "土曜日", "reading": "どようび", "meaning": "Sabtu"}, {"word": "土地", "reading": "とち", "meaning": "tanah"}]
       }
     ]
   },
@@ -103,7 +103,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "satu",
         onyomi: ["イチ","イツ"],
         kunyomi: ["ひと-","ひと.つ"],
-        examples: [{"word":"一","reading":"ひと-","meaning":"satu"},{"word":"一人","reading":"ひとり","meaning":"satu"}]
+        examples: [{"word": "一つ", "reading": "ひとつ", "meaning": "satu benda"}, {"word": "一月", "reading": "いちがつ", "meaning": "Januari"}, {"word": "一日", "reading": "ついたち", "meaning": "tanggal satu"}, {"word": "一日", "reading": "いちにち", "meaning": "satu hari"}]
       },
       {
         id: "n5-l2-ふた-4e8c",
@@ -111,7 +111,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "dua",
         onyomi: ["ジ","ニ"],
         kunyomi: ["ふた","ふた.つ","ふたたび"],
-        examples: [{"word":"二","reading":"ふた","meaning":"dua"},{"word":"二男","reading":"じなん","meaning":"kosakata terkait dua"}]
+        examples: [{"word": "二つ", "reading": "ふたつ", "meaning": "dua benda"}, {"word": "二月", "reading": "にがつ", "meaning": "Februari"}, {"word": "二日", "reading": "ふつか", "meaning": "tanggal dua"}, {"word": "二人", "reading": "ふたり", "meaning": "dua orang"}]
       },
       {
         id: "n5-l2-み-4e09",
@@ -119,7 +119,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "tiga",
         onyomi: ["サン","ゾウ"],
         kunyomi: ["み","み.つ","みっ.つ"],
-        examples: [{"word":"三","reading":"み","meaning":"tiga"},{"word":"再三","reading":"さいさん","meaning":"kosakata terkait tiga"}]
+        examples: [{"word": "三月", "reading": "さんがつ", "meaning": "March"}, {"word": "三角", "reading": "さんかく", "meaning": "triangle"}]
       },
       {
         id: "n5-l2-よ-56db",
@@ -127,7 +127,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "empat",
         onyomi: ["シ"],
         kunyomi: ["よ","よ.つ","よっ.つ","よん"],
-        examples: [{"word":"四","reading":"よ","meaning":"empat"},{"word":"四季","reading":"しき","meaning":"kosakata terkait empat"}]
+        examples: [{"word": "四", "reading": "よん", "meaning": "empat"}, {"word": "四つ", "reading": "よっつ", "meaning": "empat benda"}, {"word": "四月", "reading": "しがつ", "meaning": "April"}, {"word": "四日", "reading": "よっか", "meaning": "tanggal empat"}]
       },
       {
         id: "n5-l2-いつ-4e94",
@@ -135,7 +135,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "lima",
         onyomi: ["ゴ"],
         kunyomi: ["いつ","いつ.つ"],
-        examples: [{"word":"五","reading":"いつ","meaning":"lima"},{"word":"五感","reading":"ごかん","meaning":"kosakata terkait lima"}]
+        examples: [{"word": "五", "reading": "いつ", "meaning": "lima"}]
       },
       {
         id: "n5-l2-む-516d",
@@ -143,7 +143,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "enam",
         onyomi: ["リク","ロク"],
         kunyomi: ["む","む.つ","むい","むっ.つ"],
-        examples: [{"word":"六","reading":"む","meaning":"enam"},{"word":"六〇","reading":"ろくじゅう","meaning":"kosakata terkait enam"}]
+        examples: [{"word": "六つ", "reading": "むっつ", "meaning": "enam benda"}, {"word": "六月", "reading": "ろくがつ", "meaning": "Juni"}, {"word": "六日", "reading": "むいか", "meaning": "tanggal enam"}, {"word": "六本木", "reading": "ろっぽんぎ", "meaning": "Roppongi"}]
       },
       {
         id: "n5-l2-なな-4e03",
@@ -151,7 +151,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "tujuh",
         onyomi: ["シチ"],
         kunyomi: ["なな","なな.つ","なの"],
-        examples: [{"word":"七","reading":"なな","meaning":"tujuh"},{"word":"七〇","reading":"しちじゅう","meaning":"kosakata terkait tujuh"}]
+        examples: [{"word": "七うなな", "reading": "っ", "meaning": "sete/sete unidades"}, {"word": "七月しち", "reading": "がつ", "meaning": "7 j liO"}, {"word": "七日なの", "reading": "か", "meaning": "7 dia sete"}]
       },
       {
         id: "n5-l2-や-516b",
@@ -159,7 +159,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "delapan",
         onyomi: ["ハチ","ハツ"],
         kunyomi: ["や","や.つ","やっ.つ","よう"],
-        examples: [{"word":"八","reading":"や","meaning":"delapan"},{"word":"八〇","reading":"はちじゅう","meaning":"kosakata terkait delapan"}]
+        examples: [{"word": "八つやつ", "reading": "つ", "meaning": "oito/oito unidades 1 . 8 4 1"}, {"word": "八月はち", "reading": "がつ", "meaning": "8 agosto 4."}, {"word": "八日よう", "reading": "か", "meaning": "8 dia OitO a m 0 com dedos polegar e mindinho esticados para baixo"}, {"word": "八", "reading": "や", "meaning": "delapan"}]
       },
       {
         id: "n5-l2-ここの-4e5d",
@@ -167,7 +167,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "sembilan",
         onyomi: ["キュウ","ク"],
         kunyomi: ["ここの","ここの.つ"],
-        examples: [{"word":"九","reading":"ここの","meaning":"sembilan"},{"word":"九〇","reading":"きゅうじゅう","meaning":"kosakata terkait sembilan"}]
+        examples: [{"word": "九つ", "reading": "ここのつ", "meaning": "sembilan benda"}, {"word": "九月", "reading": "くがつ", "meaning": "September"}, {"word": "九日", "reading": "ここのか", "meaning": "tanggal sembilan"}, {"word": "九州", "reading": "きゅうしゅう", "meaning": "Kyushu"}]
       },
       {
         id: "n5-l2-そ-5341",
@@ -175,7 +175,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "sepuluh",
         onyomi: ["ジッ","ジュウ","ジュッ"],
         kunyomi: ["そ","と","とお"],
-        examples: [{"word":"十","reading":"そ","meaning":"sepuluh"},{"word":"十分","reading":"じゅうぶん","meaning":"kosakata terkait sepuluh"}]
+        examples: [{"word": "十月", "reading": "じゅうがつ", "meaning": "Oktober"}, {"word": "十日", "reading": "とおか", "meaning": "tanggal sepuluh"}]
       }
     ]
   },
@@ -192,7 +192,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "seratus",
         onyomi: ["ヒャク","ビャク"],
         kunyomi: ["もも"],
-        examples: [{"word":"百","reading":"もも","meaning":"seratus"},{"word":"何百","reading":"なんびゃく","meaning":"kosakata terkait seratus"}]
+        examples: [{"word": "百", "reading": "ひやく", "meaning": "seratus"}, {"word": "百科か事じて典ん", "reading": "ひやっかじてん", "meaning": "encyclopedia enciclop dia"}]
       },
       {
         id: "n5-l3-ち-5343",
@@ -200,7 +200,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "seribu",
         onyomi: ["セン"],
         kunyomi: ["ち"],
-        examples: [{"word":"千","reading":"ち","meaning":"seribu"},{"word":"何千","reading":"なんぜん","meaning":"kosakata terkait seribu"}]
+        examples: [{"word": "千", "reading": "せん", "meaning": "seribu"}, {"word": "三千", "reading": "さんぜん", "meaning": "many"}, {"word": "千葉県", "reading": "ちばけん", "meaning": "prefektur"}]
       },
       {
         id: "n5-l3-よろす-4e07",
@@ -208,7 +208,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "sepuluh ribu",
         onyomi: ["バン","マン"],
         kunyomi: ["よろず"],
-        examples: [{"word":"万","reading":"よろず","meaning":"sepuluh ribu"},{"word":"万事","reading":"ばんじ","meaning":"kosakata terkait sepuluh ribu"}]
+        examples: [{"word": "万", "reading": "まん", "meaning": "sepuluh ribu"}, {"word": "万国ばん", "reading": "こく", "meaning": "tOdOS OS paises geralmente h muitas dez mil"}, {"word": "万年ひ筆っまん", "reading": "ねんひっ", "meaning": "caneta tinteiro"}]
       },
       {
         id: "n5-l3-まと-5186",
@@ -216,7 +216,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "yen; lingkaran",
         onyomi: ["エン"],
         kunyomi: ["まど","まど.か","まる","まる.い","まろ.やか"],
-        examples: [{"word":"円","reading":"まど","meaning":"yen; lingkaran"},{"word":"円弧","reading":"えんこ","meaning":"kosakata terkait yen; lingkaran"}]
+        examples: [{"word": "円", "reading": "えん", "meaning": "yen; lingkaran"}, {"word": "円高", "reading": "えんだか", "meaning": "kuat"}]
       },
       {
         id: "n5-l3-とし-5e74",
@@ -224,7 +224,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "tahun",
         onyomi: ["ネン"],
         kunyomi: ["とし"],
-        examples: [{"word":"年","reading":"とし","meaning":"tahun"},{"word":"新年","reading":"しんねん","meaning":"kosakata terkait tahun"}]
+        examples: [{"word": "年", "reading": "とし", "meaning": "tahun"}, {"word": "來年", "reading": "らいねん", "meaning": "next year"}, {"word": "年金", "reading": "ねんきん", "meaning": "annuity"}]
       },
       {
         id: "n5-l3-あ-か-り-4e0a",
@@ -232,7 +232,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "atas",
         onyomi: ["シャン","ショウ","ジョウ"],
         kunyomi: ["-あ.がり","-あ.がる","-あ.げる","-うえ","あ.がり","あ.がる","あ.げる","うえ","うわ-","かみ","たてまつ.る","のぼ.す","のぼ.せる","のぼ.り","のぼ.る"],
-        examples: [{"word":"上","reading":"-あ.がり","meaning":"atas"},{"word":"上る","reading":"あがる","meaning":"kosakata terkait atas"}]
+        examples: [{"word": "上る", "reading": "あがる", "meaning": "to be adequate (to cover expenses etc.)"}, {"word": "上", "reading": "すいじよう", "meaning": "atas"}, {"word": "上着", "reading": "うわぎ", "meaning": "top"}]
       },
       {
         id: "n5-l3-くた-す-4e0b",
@@ -240,7 +240,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "bawah",
         onyomi: ["カ","ゲ"],
         kunyomi: ["-くだ.す","お.りる","お.ろす","くだ.さる","くだ.す","くだ.り","くだ.る","さ.がる","さ.げる","した","しも","もと"],
-        examples: [{"word":"下","reading":"-くだ.す","meaning":"bawah"},{"word":"川下","reading":"かわしも","meaning":"kosakata terkait bawah"}]
+        examples: [{"word": "下る", "reading": "さがる", "meaning": "to get closer to the present day"}, {"word": "地下鉄", "reading": "ちかてつ", "meaning": "subway"}]
       },
       {
         id: "n5-l3-あた-る-4e2d",
@@ -248,7 +248,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "tengah; dalam",
         onyomi: ["チュウ"],
         kunyomi: ["あた.る","うち","なか"],
-        examples: [{"word":"中","reading":"あた.る","meaning":"tengah; dalam"},{"word":"背中","reading":"せなか","meaning":"kosakata terkait tengah; dalam"}]
+        examples: [{"word": "中", "reading": "なか", "meaning": "tengah; dalam"}, {"word": "一日中", "reading": "いちにちじゅう", "meaning": "all day long"}, {"word": "中学", "reading": "ちゅうがく", "meaning": "junior high school"}, {"word": "中心", "reading": "ちゅうしん", "meaning": "merah"}]
       },
       {
         id: "n5-l3-なか-は-534a",
@@ -256,7 +256,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "setengah",
         onyomi: ["ハン"],
         kunyomi: ["なか.ば"],
-        examples: [{"word":"半","reading":"なか.ば","meaning":"setengah"},{"word":"前半","reading":"ぜんはん","meaning":"kosakata terkait setengah"}]
+        examples: [{"word": "半年", "reading": "はんとし", "meaning": "half a year"}, {"word": "半分", "reading": "はんぶん", "meaning": "half"}, {"word": "四半", "reading": "よじはん", "meaning": "4 30 4 4 30"}, {"word": "半日", "reading": "はんにち", "meaning": "half day"}]
       },
       {
         id: "n5-l3-わ-かつ-5206",
@@ -264,7 +264,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "menit; bagian",
         onyomi: ["フン","ブ","ブン"],
         kunyomi: ["わ.かつ","わ.かる","わ.かれる","わ.け","わ.ける"],
-        examples: [{"word":"分","reading":"わ.かつ","meaning":"menit; bagian"},{"word":"充分","reading":"じゅうぶん","meaning":"kosakata terkait menit; bagian"}]
+        examples: [{"word": "分ける", "reading": "わける", "meaning": "to push one's way through (a crowd)"}, {"word": "分る", "reading": "わかる", "meaning": "I know"}, {"word": "十分", "reading": "じゅっぷん", "meaning": "10 minutes"}, {"word": "充分", "reading": "じゅうぶん", "meaning": "division into ten"}]
       }
     ]
   },
@@ -281,7 +281,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "orang",
         onyomi: ["ジン","ニン"],
         kunyomi: ["-と","-り","ひと"],
-        examples: [{"word":"人","reading":"-と","meaning":"orang"},{"word":"人込","reading":"ひとごみ","meaning":"kosakata terkait orang"}]
+        examples: [{"word": "人", "reading": "ひと", "meaning": "orang"}, {"word": "一人", "reading": "ひとり", "meaning": "satu orang"}, {"word": "三人", "reading": "さんにん", "meaning": "tiga orang"}, {"word": "日本人", "reading": "にほんじん", "meaning": "orang Jepang"}]
       },
       {
         id: "n5-l4-こ-5b50",
@@ -289,7 +289,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "anak",
         onyomi: ["シ","ス","ツ"],
         kunyomi: ["-こ","こ","ね"],
-        examples: [{"word":"子","reading":"-こ","meaning":"anak"},{"word":"子供","reading":"こども","meaning":"anak"}]
+        examples: [{"word": "子ども", "reading": "こども", "meaning": "child"}, {"word": "親子", "reading": "おやこ", "meaning": "orang tua"}, {"word": "調子", "reading": "ちょうし", "meaning": "trend"}]
       },
       {
         id: "n5-l4-おんな-5973",
@@ -297,7 +297,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "perempuan",
         onyomi: ["ジョ","ニョ","ニョウ"],
         kunyomi: ["おんな","め"],
-        examples: [{"word":"女","reading":"おんな","meaning":"perempuan"},{"word":"美女","reading":"びじょ","meaning":"kosakata terkait perempuan"}]
+        examples: [{"word": "女の人", "reading": "おんなのひと", "meaning": "perempuan"}, {"word": "女の子", "reading": "おんなのこ", "meaning": "anak perempuan"}, {"word": "女性", "reading": "じょせい", "meaning": "wanita"}]
       },
       {
         id: "n5-l4-お-7537",
@@ -305,7 +305,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "laki-laki",
         onyomi: ["ダン","ナン"],
         kunyomi: ["お","おとこ"],
-        examples: [{"word":"男","reading":"お","meaning":"laki-laki"},{"word":"二男","reading":"じなん","meaning":"kosakata terkait laki-laki"}]
+        examples: [{"word": "男の人", "reading": "おとこのひと", "meaning": "laki-laki"}, {"word": "男の子", "reading": "おとこのこ", "meaning": "anak laki-laki"}, {"word": "男性", "reading": "だんせい", "meaning": "pria"}]
       },
       {
         id: "n5-l4-め-76ee",
@@ -313,7 +313,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "mata",
         onyomi: ["ボク","モク"],
         kunyomi: ["-め","ま-","め"],
-        examples: [{"word":"目","reading":"-め","meaning":"mata"},{"word":"縫目","reading":"ぬいめ","meaning":"kosakata terkait mata"}]
+        examples: [{"word": "目", "reading": "め", "meaning": "mata"}, {"word": "一日目", "reading": "いちにちめ", "meaning": "pekerjaan"}, {"word": "目薬", "reading": "めぐすり", "meaning": "eye drops"}, {"word": "目的", "reading": "もくてき", "meaning": "purpose"}]
       },
       {
         id: "n5-l4-くち-53e3",
@@ -321,7 +321,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "mulut",
         onyomi: ["ク","コウ"],
         kunyomi: ["くち"],
-        examples: [{"word":"口","reading":"くち","meaning":"mulut"},{"word":"川口","reading":"かわぐち","meaning":"mulut"}]
+        examples: [{"word": "口", "reading": "くち", "meaning": "mulut"}, {"word": "入口", "reading": "いりぐち", "meaning": "entrance"}, {"word": "人口", "reading": "じんこう", "meaning": "common talk"}]
       },
       {
         id: "n5-l4-みみ-8033",
@@ -329,7 +329,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "telinga",
         onyomi: ["ジ"],
         kunyomi: ["みみ"],
-        examples: [{"word":"耳","reading":"みみ","meaning":"telinga"},{"word":"耳元","reading":"みみもと","meaning":"menutup"}]
+        examples: [{"word": "耳", "reading": "みみ", "meaning": "telinga"}, {"word": "耳鼻", "reading": "じび", "meaning": "nose and ears"}]
       },
       {
         id: "n5-l4-て-624b",
@@ -337,7 +337,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "tangan",
         onyomi: ["シュ","ズ"],
         kunyomi: ["-て","た-","て","て-"],
-        examples: [{"word":"手","reading":"-て","meaning":"tangan"},{"word":"手拭","reading":"てぬぐい","meaning":"kosakata terkait tangan"}]
+        examples: [{"word": "手", "reading": "て", "meaning": "tangan"}, {"word": "手紙", "reading": "てがみ", "meaning": "huruf"}]
       },
       {
         id: "n5-l4-あし-8db3",
@@ -345,7 +345,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "kaki; cukup",
         onyomi: ["ソク"],
         kunyomi: ["あし","た.す","た.りる","た.る"],
-        examples: [{"word":"足","reading":"あし","meaning":"kaki; cukup"},{"word":"足跡","reading":"あしあと","meaning":"kosakata terkait kaki; cukup"}]
+        examples: [{"word": "足", "reading": "あし", "meaning": "kaki; cukup"}, {"word": "一足", "reading": "いっそく", "meaning": "a pair (of shoes or socks)"}, {"word": "足りる", "reading": "たりる", "meaning": "to be sufficient"}, {"word": "遠足", "reading": "えんそく", "meaning": "long walk"}]
       },
       {
         id: "n5-l4-ちから-529b",
@@ -353,7 +353,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "tenaga; kekuatan",
         onyomi: ["リイ","リキ","リョク"],
         kunyomi: ["ちから"],
-        examples: [{"word":"力","reading":"ちから","meaning":"tenaga; kekuatan"},{"word":"電力","reading":"でんりょく","meaning":"kosakata terkait tenaga; kekuatan"}]
+        examples: [{"word": "力", "reading": "ちから", "meaning": "tenaga; kekuatan"}]
       }
     ]
   },
@@ -370,7 +370,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "ayah",
         onyomi: ["フ"],
         kunyomi: ["ちち"],
-        examples: [{"word":"父","reading":"ちち","meaning":"ayah"},{"word":"伯父","reading":"おじ","meaning":"kosakata terkait ayah"}]
+        examples: [{"word": "父", "reading": "ちち", "meaning": "ayah"}, {"word": "お父さん", "reading": "おとうさん", "meaning": "husband"}, {"word": "父親", "reading": "ちちおや", "meaning": "father"}]
       },
       {
         id: "n5-l5-はは-6bcd",
@@ -378,7 +378,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "ibu",
         onyomi: ["ボ"],
         kunyomi: ["はは","も"],
-        examples: [{"word":"母","reading":"はは","meaning":"ibu"},{"word":"伯母","reading":"おば","meaning":"kosakata terkait ibu"}]
+        examples: [{"word": "母", "reading": "はは", "meaning": "ibu"}, {"word": "お母さん", "reading": "おかあさん", "meaning": "wife"}, {"word": "父母", "reading": "ふぼ", "meaning": "orang tua"}]
       },
       {
         id: "n5-l5-さき-5148",
@@ -386,7 +386,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "sebelum; depan",
         onyomi: ["セン"],
         kunyomi: ["さき","ま.ず"],
-        examples: [{"word":"先","reading":"さき","meaning":"sebelum; depan"},{"word":"祖先","reading":"そせん","meaning":"kosakata terkait sebelum; depan"}]
+        examples: [{"word": "先", "reading": "さき", "meaning": "sebelum; depan"}, {"word": "先月", "reading": "せんげ", "meaning": "parar pessoa pessoa morta (ancestral)"}, {"word": "先輩", "reading": "せんばい", "meaning": "veterano"}]
       },
       {
         id: "n5-l5-う-751f",
@@ -394,7 +394,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "hidup; lahir",
         onyomi: ["ショウ","セイ"],
         kunyomi: ["-う","い.かす","い.きる","い.ける","う.まれ","う.まれる","う.む","うま.れる","うまれ","お.う","き","な.す","な.る","なま","なま-","は.える","は.やす","む.す"],
-        examples: [{"word":"生","reading":"-う","meaning":"hidup; lahir"},{"word":"人生","reading":"じんせい","meaning":"kosakata terkait hidup; lahir"}]
+        examples: [{"word": "学生", "reading": "がくせい", "meaning": "pelajar"}, {"word": "先生", "reading": "せんせい", "meaning": "guru"}, {"word": "生活", "reading": "せいかつ", "meaning": "kehidupan sehari-hari"}]
       },
       {
         id: "n5-l5-まな-ふ-5b66",
@@ -402,7 +402,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "belajar",
         onyomi: ["ガク"],
         kunyomi: ["まな.ぶ"],
-        examples: [{"word":"学","reading":"まな.ぶ","meaning":"belajar"},{"word":"学位","reading":"がくい","meaning":"kosakata terkait belajar"}]
+        examples: [{"word": "卩学かがく", "reading": "い", "meaning": "ci ncia es e i"}]
       },
       {
         id: "n5-l5-キョウ-6821",
@@ -410,7 +410,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "sekolah",
         onyomi: ["キョウ","コウ"],
         kunyomi: [],
-        examples: [{"word":"校","reading":"キョウ","meaning":"sekolah"},{"word":"休校","reading":"きゅうこう","meaning":"kosakata terkait sekolah"}]
+        examples: [{"word": "校長こうちょう", "reading": "け", "meaning": "diretor de escola"}, {"word": "母校ぼこう", "reading": "い", "meaning": "c de fl tn"}]
       },
       {
         id: "n5-l5-とも-53cb",
@@ -418,7 +418,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "teman",
         onyomi: ["ユウ"],
         kunyomi: ["とも"],
-        examples: [{"word":"友","reading":"とも","meaning":"teman"},{"word":"友達","reading":"ともだち","meaning":"teman"}]
+        examples: [{"word": "友だ", "reading": "ともたち", "meaning": "friend armgo"}, {"word": "友人", "reading": "ゆうじん", "meaning": "friend"}, {"word": "親友", "reading": "しんゆっ", "meaning": "close friend amigo intimo"}]
       },
       {
         id: "n5-l5-もと-672c",
@@ -426,7 +426,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "buku; asal",
         onyomi: ["ホン"],
         kunyomi: ["もと"],
-        examples: [{"word":"本","reading":"もと","meaning":"buku; asal"},{"word":"日本","reading":"にほん","meaning":"kosakata terkait buku; asal"}]
+        examples: [{"word": "本", "reading": "ほん", "meaning": "buku; asal"}, {"word": "本屋", "reading": "ほんや", "meaning": "toko"}, {"word": "山本さん", "reading": "やまもとさん", "meaning": "Mr. Yamamoto Senhor (a) Yamamoto"}]
       },
       {
         id: "n5-l5-こ-と-に-6bce",
@@ -434,7 +434,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "setiap",
         onyomi: ["マイ"],
         kunyomi: ["-ごと.に","ごと"],
-        examples: [{"word":"毎","reading":"-ごと.に","meaning":"setiap"},{"word":"毎日","reading":"まいにち","meaning":"setiap hari"}]
+        examples: [{"word": "毎日ま", "reading": "いにち", "meaning": "todos OS dias mother gives birth one after an()ther every"}, {"word": "毎月ま", "reading": "いつき", "meaning": "tOdOS OS"}, {"word": "毎まい", "reading": "としまいねん", "meaning": "todos OS anos figura de m e com adorno no cabel()"}, {"word": "毎朝ま", "reading": "いあさ", "meaning": "todas as manh s ter muitos filhos um atr s do outro cada"}]
       },
       {
         id: "n5-l5-なに-4f55",
@@ -442,7 +442,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "apa",
         onyomi: ["カ"],
         kunyomi: ["なに","なに-","なん","なん-"],
-        examples: [{"word":"何","reading":"なに","meaning":"apa"},{"word":"幾何","reading":"きか","meaning":"kosakata terkait apa"}]
+        examples: [{"word": "何月", "reading": "なんがつ", "meaning": "what month"}, {"word": "何人なんにん", "reading": "ませ", "meaning": "quanlas perguntar"}, {"word": "何時", "reading": "なんじ", "meaning": "what time"}]
       }
     ]
   },
@@ -459,7 +459,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "depan; sebelum",
         onyomi: ["ゼン"],
         kunyomi: ["-まえ","まえ"],
-        examples: [{"word":"前","reading":"-まえ","meaning":"depan; sebelum"},{"word":"前半","reading":"ぜんはん","meaning":"kosakata terkait depan; sebelum"}]
+        examples: [{"word": "前", "reading": "まえ", "meaning": "depan; sebelum"}, {"word": "三日前", "reading": "みつかまえ", "meaning": "ago tr s dias atr s atracado frente"}, {"word": "前半", "reading": "ぜんはん", "meaning": "first half"}]
       },
       {
         id: "n5-l6-あと-5f8c",
@@ -467,7 +467,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "belakang; sesudah",
         onyomi: ["コウ","ゴ"],
         kunyomi: ["あと","うし.ろ","うしろ","おく.れる","のち"],
-        examples: [{"word":"後","reading":"あと","meaning":"belakang; sesudah"},{"word":"後れ","reading":"おくれ","meaning":"kosakata terkait belakang; sesudah"}]
+        examples: [{"word": "後", "reading": "あと", "meaning": "sesudah; kemudian"}, {"word": "後ろ", "reading": "うしろ", "meaning": "belakang"}, {"word": "前後", "reading": "ぜんご", "meaning": "depan dan belakang"}, {"word": "最後", "reading": "さいご", "meaning": "terakhir"}]
       },
       {
         id: "n5-l6-そと-5916",
@@ -475,7 +475,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "luar",
         onyomi: ["ガイ","ゲ"],
         kunyomi: ["そと","と-","はず.す","はず.れる","ほか"],
-        examples: [{"word":"外","reading":"そと","meaning":"luar"},{"word":"外相","reading":"がいしょう","meaning":"kosakata terkait luar"}]
+        examples: [{"word": "外", "reading": "そと", "meaning": "luar"}, {"word": "外国", "reading": "がいこく", "meaning": "aneh"}]
       },
       {
         id: "n5-l6-ひた-り-5de6",
@@ -483,7 +483,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "kiri",
         onyomi: ["サ","シャ"],
         kunyomi: ["ひだり"],
-        examples: [{"word":"左","reading":"ひだり","meaning":"kiri"},{"word":"左側","reading":"ひだりがわ","meaning":"kosakata terkait kiri"}]
+        examples: [{"word": "左", "reading": "ひだり", "meaning": "kiri"}]
       },
       {
         id: "n5-l6-みき-53f3",
@@ -491,7 +491,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "kanan",
         onyomi: ["ウ","ユウ"],
         kunyomi: ["みぎ"],
-        examples: [{"word":"右","reading":"みぎ","meaning":"kanan"},{"word":"右側","reading":"みぎがわ","meaning":"kosakata terkait kanan"}]
+        examples: [{"word": "右", "reading": "みぎ", "meaning": "kanan"}, {"word": "右手", "reading": "みぎて", "meaning": "right hand"}, {"word": "左右", "reading": "さゆう", "meaning": "(serving at someone's) side"}, {"word": "右側", "reading": "みぎがわ", "meaning": "right side"}]
       },
       {
         id: "n5-l6-ひか-し-6771",
@@ -499,7 +499,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "timur",
         onyomi: ["トウ"],
         kunyomi: ["ひがし"],
-        examples: [{"word":"東","reading":"ひがし","meaning":"timur"},{"word":"東欧","reading":"とうおう","meaning":"kosakata terkait timur"}]
+        examples: [{"word": "東京とうきよう", "reading": "とうきよう", "meaning": "T quiO rvore leste"}, {"word": "東洋", "reading": "とうよう", "meaning": "Jepang"}]
       },
       {
         id: "n5-l6-にし-897f",
@@ -507,7 +507,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "barat",
         onyomi: ["サイ","ス","セイ"],
         kunyomi: ["にし"],
-        examples: [{"word":"西","reading":"にし","meaning":"barat"},{"word":"北西","reading":"ほくせい","meaning":"kosakata terkait barat"}]
+        examples: [{"word": "西口", "reading": "にしぐち", "meaning": "west entrance"}, {"word": "東西", "reading": "とうざい", "meaning": "east and west"}, {"word": "西洋せ", "reading": "いよう", "meaning": "Ocidente desaparecer o SOI desaparece no oeste- oeste"}]
       },
       {
         id: "n5-l6-みなみ-5357",
@@ -515,7 +515,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "selatan",
         onyomi: ["ナ","ナン"],
         kunyomi: ["みなみ"],
-        examples: [{"word":"南","reading":"みなみ","meaning":"selatan"},{"word":"南東","reading":"なんとう","meaning":"kosakata terkait selatan"}]
+        examples: [{"word": "南", "reading": "みなみ", "meaning": "selatan"}, {"word": "南口", "reading": "みなみぐち", "meaning": "south entrance"}, {"word": "東南", "reading": "とうなん", "meaning": "south-east"}, {"word": "南き極よく", "reading": "なんきよく", "meaning": "Ant rtida voltam-se ao do quente sul"}]
       },
       {
         id: "n5-l6-きた-5317",
@@ -523,7 +523,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "utara",
         onyomi: ["ホク"],
         kunyomi: ["きた"],
-        examples: [{"word":"北","reading":"きた","meaning":"utara"},{"word":"北東","reading":"ほくとう","meaning":"kosakata terkait utara"}]
+        examples: [{"word": "北ロき", "reading": "たぐち", "meaning": "saida norte"}, {"word": "南北な", "reading": "んぼく", "meaning": "norte-sul figura de duas pessoas sentadas com COStas voltadas umas s"}, {"word": "北か海い道ほ", "reading": "っいどう", "meaning": "1 Hokkai do outras atmosfera fria direc o fria norte"}]
       },
       {
         id: "n5-l6-な-540d",
@@ -531,7 +531,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "nama",
         onyomi: ["ミョウ","メイ"],
         kunyomi: ["-な","な"],
-        examples: [{"word":"名","reading":"-な","meaning":"nama"},{"word":"名月","reading":"めいげつ","meaning":"kosakata terkait nama"}]
+        examples: [{"word": "名まえ", "reading": "なまえ", "meaning": "name"}, {"word": "す名じゅうめ", "reading": "いリい", "meaning": "0 pessoas"}, {"word": "有名なゆうめい", "reading": "は", "meaning": "m 0 Lua"}, {"word": "人名", "reading": "じんめい", "meaning": "person's name"}]
       }
     ]
   },
@@ -548,7 +548,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "sapi",
         onyomi: ["ギュウ"],
         kunyomi: ["うし"],
-        examples: [{"word":"牛","reading":"うし","meaning":"sapi"},{"word":"牛乳","reading":"ぎゅうにゅう","meaning":"kosakata terkait sapi"}]
+        examples: [{"word": "牛", "reading": "うし", "meaning": "sapi"}, {"word": "水牛", "reading": "すいぎゅう", "meaning": "air"}, {"word": "牛肉", "reading": "ぎゅうにく", "meaning": "beef"}, {"word": "牛乳", "reading": "ぎゅうにゆう", "meaning": "COW' S milk leite de vaca"}]
       },
       {
         id: "n5-l7-うま-99ac",
@@ -556,7 +556,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "kuda",
         onyomi: ["バ"],
         kunyomi: ["うま","うま-","ま"],
-        examples: [{"word":"馬","reading":"うま","meaning":"kuda"},{"word":"競馬","reading":"けいば","meaning":"kosakata terkait kuda"}]
+        examples: [{"word": "馬", "reading": "うま", "meaning": "kuda"}, {"word": "馬", "reading": "ばしや", "meaning": "kuda"}, {"word": "トロイの木馬", "reading": "トロイのもくば", "meaning": "Trojan horse"}]
       },
       {
         id: "n5-l7-さ-かな-9b5a",
@@ -564,7 +564,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "ikan",
         onyomi: ["ギョ"],
         kunyomi: ["-ざかな","うお","さかな"],
-        examples: [{"word":"魚","reading":"-ざかな","meaning":"ikan"},{"word":"魚肉","reading":"ぎょにく","meaning":"kosakata terkait ikan"}]
+        examples: [{"word": "魚", "reading": "さかな", "meaning": "ikan"}, {"word": "金魚", "reading": "きんぎょ", "meaning": "emas"}, {"word": "人魚", "reading": "にんぎょ", "meaning": "mermaid"}]
       },
       {
         id: "n5-l7-かい-8c9d",
@@ -572,7 +572,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "kerang",
         onyomi: ["バイ"],
         kunyomi: ["かい"],
-        examples: [{"word":"貝","reading":"かい","meaning":"kerang"},{"word":"貝殻","reading":"かいがら","meaning":"kosakata terkait kerang"}]
+        examples: [{"word": "貝がら", "reading": "かいがら", "meaning": "laut"}]
       },
       {
         id: "n5-l7-さめ-96e8",
@@ -580,7 +580,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "hujan",
         onyomi: ["ウ"],
         kunyomi: ["-さめ","あま-","あめ"],
-        examples: [{"word":"雨","reading":"-さめ","meaning":"hujan"},{"word":"大雨","reading":"おおあめ","meaning":"berat"}]
+        examples: [{"word": "雨", "reading": "あめ", "meaning": "hujan"}, {"word": "大雨", "reading": "おおあめ", "meaning": "berat"}, {"word": "雨期", "reading": "うき", "meaning": "laut"}]
       },
       {
         id: "n5-l7-あま-5929",
@@ -588,7 +588,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "langit; surga",
         onyomi: ["テン"],
         kunyomi: ["あま-","あまつ","あめ"],
-        examples: [{"word":"天","reading":"あま-","meaning":"langit; surga"},{"word":"天皇","reading":"てんのう","meaning":"kosakata terkait langit; surga"}]
+        examples: [{"word": "天", "reading": "てん", "meaning": "langit; surga"}, {"word": "天気", "reading": "てんき", "meaning": "weather"}, {"word": "天国", "reading": "てんご", "meaning": "paradise paraiso"}]
       },
       {
         id: "n5-l7-き-6c17",
@@ -596,7 +596,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "udara; perasaan",
         onyomi: ["キ","ケ"],
         kunyomi: ["き"],
-        examples: [{"word":"気","reading":"き","meaning":"udara; perasaan"},{"word":"気懸り","reading":"きがかり","meaning":"kosakata terkait udara; perasaan"}]
+        examples: [{"word": "天気", "reading": "てんき", "meaning": "weather"}, {"word": "人気", "reading": "にんき", "meaning": "popularity"}, {"word": "気をつける", "reading": "きをつける", "meaning": "to be careful"}, {"word": "気持ち", "reading": "きもち", "meaning": "merah"}]
       },
       {
         id: "n5-l7-くるま-8eca",
@@ -604,7 +604,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "mobil; kendaraan",
         onyomi: ["シャ"],
         kunyomi: ["くるま"],
-        examples: [{"word":"車","reading":"くるま","meaning":"mobil; kendaraan"},{"word":"車両","reading":"しゃりょう","meaning":"kosakata terkait mobil; kendaraan"}]
+        examples: [{"word": "車", "reading": "くるま", "meaning": "mobil; kendaraan"}, {"word": "自じ動どう車", "reading": "じどうしや", "meaning": "automobile autom vel"}]
       },
       {
         id: "n5-l7-かと-9580",
@@ -612,7 +612,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "gerbang",
         onyomi: ["モン"],
         kunyomi: ["かど","と"],
-        examples: [{"word":"門","reading":"かど","meaning":"gerbang"},{"word":"門松","reading":"かどまつ","meaning":"kosakata terkait gerbang"}]
+        examples: [{"word": "門", "reading": "もん", "meaning": "gerbang"}, {"word": "正門", "reading": "せいもん", "meaning": "main gate"}, {"word": "専門", "reading": "せんもん", "meaning": "khusus"}]
       },
       {
         id: "n5-l7-うま-5348",
@@ -620,7 +620,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "siang",
         onyomi: ["ゴ"],
         kunyomi: ["うま"],
-        examples: [{"word":"午","reading":"うま","meaning":"siang"},{"word":"午后","reading":"ごご","meaning":"kosakata terkait siang"}]
+        examples: [{"word": "午前", "reading": "ごぜん", "meaning": "pagi; sebelum tengah hari"}, {"word": "午後", "reading": "ごご", "meaning": "sore; setelah tengah hari"}]
       }
     ]
   },
@@ -637,7 +637,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "besar",
         onyomi: ["タイ","ダイ"],
         kunyomi: ["-おお.いに","おお-","おお.きい"],
-        examples: [{"word":"大","reading":"-おお.いに","meaning":"besar"},{"word":"大家","reading":"おおや","meaning":"kosakata terkait besar"}]
+        examples: [{"word": "大きい", "reading": "おおきい", "meaning": "loud"}, {"word": "大学", "reading": "だいがく", "meaning": "Jepang"}, {"word": "アジア大会", "reading": "アジアたいかい", "meaning": "Asian Games"}, {"word": "大人", "reading": "おとな", "meaning": "adult"}]
       },
       {
         id: "n5-l8-お-5c0f",
@@ -645,7 +645,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "kecil",
         onyomi: ["ショウ"],
         kunyomi: ["お-","こ-","さ-","ちい.さい"],
-        examples: [{"word":"小","reading":"お-","meaning":"kecil"},{"word":"小供","reading":"こども","meaning":"anak"}]
+        examples: [{"word": "小さい", "reading": "ちいさい", "meaning": "rendah"}, {"word": "小川", "reading": "おがわ", "meaning": "stream"}, {"word": "小学いぬ校", "reading": "しようがっ", "meaning": "pnmary school ensino fundamental"}, {"word": "小犬", "reading": "いぬ", "meaning": "PUPPY 1 filhote de cachorro"}]
       },
       {
         id: "n5-l8-た-か-9ad8",
@@ -653,7 +653,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "tinggi; mahal",
         onyomi: ["コウ"],
         kunyomi: ["-だか","たか","たか.い","たか.まる","たか.める"],
-        examples: [{"word":"高","reading":"-だか","meaning":"tinggi; mahal"},{"word":"高温","reading":"こうおん","meaning":"kosakata terkait tinggi; mahal"}]
+        examples: [{"word": "高い", "reading": "たかい", "meaning": "loud"}, {"word": "高校生", "reading": "こっこう", "meaning": "high school student aluno de ensino m di()"}]
       },
       {
         id: "n5-l8-やす-5b89",
@@ -661,7 +661,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "murah; aman",
         onyomi: ["アン"],
         kunyomi: ["やす","やす.い","やす.まる","やす.らか"],
-        examples: [{"word":"安","reading":"やす","meaning":"murah; aman"},{"word":"安物","reading":"やすもの","meaning":"kosakata terkait murah; aman"}]
+        examples: [{"word": "安い", "reading": "やすい", "meaning": "cheap"}, {"word": "安全", "reading": "あんぜん", "meaning": "safety"}]
       },
       {
         id: "n5-l8-あたら-しい-65b0",
@@ -669,7 +669,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "baru",
         onyomi: ["シン"],
         kunyomi: ["あたら.しい","あら-","あら.た","にい-"],
-        examples: [{"word":"新","reading":"あたら.しい","meaning":"baru"},{"word":"新年","reading":"しんねん","meaning":"kosakata terkait baru"}]
+        examples: [{"word": "新しい", "reading": "あたらしい", "meaning": "baru"}, {"word": "新聞", "reading": "しんぶん", "meaning": "koran"}, {"word": "新年", "reading": "しんねん", "meaning": "tahun baru"}]
       },
       {
         id: "n5-l8-ふる-す-53e4",
@@ -677,7 +677,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "lama; kuno",
         onyomi: ["コ"],
         kunyomi: ["-ふる.す","ふる-","ふる.い"],
-        examples: [{"word":"古","reading":"-ふる.す","meaning":"lama; kuno"},{"word":"古里","reading":"ふるさと","meaning":"kosakata terkait lama; kuno"}]
+        examples: [{"word": "古い", "reading": "ふるい", "meaning": "of the distant past"}, {"word": "中古車", "reading": "ちゅうこしや", "meaning": "used car carro usado"}]
       },
       {
         id: "n5-l8-おさ-9577",
@@ -685,7 +685,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "panjang; pemimpin",
         onyomi: ["チョウ"],
         kunyomi: ["おさ","なが.い"],
-        examples: [{"word":"長","reading":"おさ","meaning":"panjang; pemimpin"},{"word":"機長","reading":"きちょう","meaning":"kosakata terkait panjang; pemimpin"}]
+        examples: [{"word": "長居", "reading": "ながい", "meaning": "long visit"}, {"word": "学長", "reading": "がくちょう", "meaning": "(university) president"}, {"word": "校長", "reading": "こうちょう", "meaning": "principal"}]
       },
       {
         id: "n5-l8-おお-い-591a",
@@ -693,7 +693,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "banyak",
         onyomi: ["タ"],
         kunyomi: ["おお.い","まさ.に","まさ.る"],
-        examples: [{"word":"多","reading":"おお.い","meaning":"banyak"},{"word":"多湿","reading":"たしつ","meaning":"kosakata terkait banyak"}]
+        examples: [{"word": "多い", "reading": "おおい", "meaning": "frequent"}, {"word": "多少", "reading": "たしよう", "meaning": "a little POtlCO"}, {"word": "多数すう決けっ", "reading": "たすうけっ", "meaning": "decision by maj ority decis o por rnaiona"}]
       },
       {
         id: "n5-l8-すく-ない-5c11",
@@ -701,7 +701,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "sedikit",
         onyomi: ["ショウ"],
         kunyomi: ["すく.ない","すこ.し"],
-        examples: [{"word":"少","reading":"すく.ない","meaning":"sedikit"},{"word":"少々","reading":"しょうしょう","meaning":"kosakata terkait sedikit"}]
+        examples: [{"word": "少ない", "reading": "すくない", "meaning": "few"}, {"word": "少し", "reading": "すこし", "meaning": "a little way"}, {"word": "少年", "reading": "しようねん", "meaning": "boy garoto"}, {"word": "少女", "reading": "しようじよ", "meaning": "girl garota"}]
       },
       {
         id: "n5-l8-さ-65e9",
@@ -709,7 +709,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "cepat; awal",
         onyomi: ["サッ","ソウ"],
         kunyomi: ["さ-","はや","はや-","はや.い","はや.まる","はや.める"],
-        examples: [{"word":"早","reading":"さ-","meaning":"cepat; awal"},{"word":"早い","reading":"はやい","meaning":"kosakata terkait cepat; awal"}]
+        examples: [{"word": "早い", "reading": "はやい", "meaning": "as soon as ..."}, {"word": "早朝", "reading": "そうちょう", "meaning": "pagi"}, {"word": "早送り", "reading": "はやおくり", "meaning": "distrik"}]
       }
     ]
   },
@@ -726,7 +726,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "pergi",
         onyomi: ["アン","ギョウ","コウ"],
         kunyomi: ["-い.き","-いき","-ゆ.き","-ゆき","い.く","おこ.なう","おこな.う","ゆ.く"],
-        examples: [{"word":"行","reading":"-い.き","meaning":"pergi"},{"word":"徐行","reading":"じょこう","meaning":"kosakata terkait pergi"}]
+        examples: [{"word": "行き方", "reading": "いきかた", "meaning": "way (of doing)"}, {"word": "三行目", "reading": "さんぎようめ", "meaning": "the third line"}]
       },
       {
         id: "n5-l9-き-6765",
@@ -734,7 +734,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "datang",
         onyomi: ["タイ","ライ"],
         kunyomi: ["き","き.たす","き.たる","きた.す","きた.る","く.る","こ"],
-        examples: [{"word":"来","reading":"き","meaning":"datang"},{"word":"来月","reading":"らいげつ","meaning":"kosakata terkait datang"}]
+        examples: [{"word": "来る", "reading": "くる", "meaning": "to come to (e.g. when it comes to spinach ... )"}, {"word": "来年", "reading": "らいねん", "meaning": "next year"}, {"word": "来週", "reading": "らいしゅう", "meaning": "next week"}, {"word": "将来", "reading": "しようらい", "meaning": "future futuro"}]
       },
       {
         id: "n5-l9-く-う-98df",
@@ -742,7 +742,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "makan",
         onyomi: ["ショク","ジキ"],
         kunyomi: ["く.う","く.らう","た.べる","は.む"],
-        examples: [{"word":"食","reading":"く.う","meaning":"makan"},{"word":"食う","reading":"くう","meaning":"kosakata terkait makan"}]
+        examples: [{"word": "食べる", "reading": "たべる", "meaning": "to eat"}, {"word": "外食する", "reading": "がいしよくする", "meaning": "tO eat out comer fora"}, {"word": "食り料よう品ひん", "reading": "しよくりようひ", "meaning": "grocery alimento"}, {"word": "食堂", "reading": "しよくどう", "meaning": "dining hall refeit rio"}]
       },
       {
         id: "n5-l9-み-える-898b",
@@ -750,7 +750,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "melihat",
         onyomi: ["ケン"],
         kunyomi: ["み.える","み.せる","み.る"],
-        examples: [{"word":"見","reading":"み.える","meaning":"melihat"},{"word":"露見","reading":"ろけん","meaning":"kosakata terkait melihat"}]
+        examples: [{"word": "見る", "reading": "みる", "meaning": "to experience"}, {"word": "見せる", "reading": "みせる", "meaning": "tipis"}, {"word": "意見", "reading": "いけん", "meaning": "opinion"}]
       },
       {
         id: "n5-l9-い-り-5165",
@@ -758,7 +758,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "masuk",
         onyomi: ["ジュ","ニュウ"],
         kunyomi: ["-い.り","-い.る","-い.れ","い.る","い.れる","はい.る"],
-        examples: [{"word":"入","reading":"-い.り","meaning":"masuk"},{"word":"入試","reading":"にゅうし","meaning":"kosakata terkait masuk"}]
+        examples: [{"word": "入る", "reading": "はいる", "meaning": "to be put in (of effort spirit feeling etc.)"}, {"word": "入れる", "reading": "いれる", "meaning": "to cast (a vote)"}, {"word": "入口", "reading": "いりぐち", "meaning": "entrance"}]
       },
       {
         id: "n5-l9-た-す-51fa",
@@ -766,7 +766,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "keluar",
         onyomi: ["シュツ","スイ"],
         kunyomi: ["-だ.す","-で","い.だす","い.でる","だ.す","で.る"],
-        examples: [{"word":"出","reading":"-だ.す","meaning":"keluar"},{"word":"貸出","reading":"かしだし","meaning":"kosakata terkait keluar"}]
+        examples: [{"word": "出る", "reading": "でる", "meaning": "to be produced"}, {"word": "出す", "reading": "だす", "meaning": "... out (e.g. to jump out to carry out)"}, {"word": "出口", "reading": "でぐち", "meaning": "exit"}]
       },
       {
         id: "n5-l9-た-つ-7acb",
@@ -774,7 +774,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "berdiri",
         onyomi: ["リットル","リツ","リュウ"],
         kunyomi: ["-た.つ","-た.て","-た.てる","-だ.て","-だ.てる","た.ち-","た.つ","た.て-","た.てる","たて-"],
-        examples: [{"word":"立","reading":"-た.つ","meaning":"berdiri"},{"word":"積立","reading":"つみたて","meaning":"kosakata terkait berdiri"}]
+        examples: [{"word": "立食パ", "reading": "ーティーりつし", "meaning": "buffet party festa tipo buf"}, {"word": "国立", "reading": "こくりつ", "meaning": "national"}]
       },
       {
         id: "n5-l9-か-き-66f8",
@@ -782,7 +782,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "menulis",
         onyomi: ["ショ"],
         kunyomi: ["-が.き","-がき","か.く"],
-        examples: [{"word":"書","reading":"-が.き","meaning":"menulis"},{"word":"絵端書","reading":"えはがき","meaning":"kosakata terkait menulis"}]
+        examples: [{"word": "書く", "reading": "かく", "meaning": "menulis"}, {"word": "読書", "reading": "どくしょ", "meaning": "membaca buku"}, {"word": "下書き", "reading": "したがき", "meaning": "draf"}, {"word": "辞書", "reading": "じしょ", "meaning": "kamus"}]
       },
       {
         id: "n5-l9-い-う-8a00",
@@ -790,7 +790,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "berkata",
         onyomi: ["ゲン","ゴン"],
         kunyomi: ["い.う","こと"],
-        examples: [{"word":"言","reading":"い.う","meaning":"berkata"},{"word":"言う","reading":"いう","meaning":"kosakata terkait berkata"}]
+        examples: [{"word": "伝でん言", "reading": "でん", "meaning": "mensagem"}]
       },
       {
         id: "n5-l9-の-み-98f2",
@@ -798,7 +798,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "minum",
         onyomi: ["イン","オン"],
         kunyomi: ["-の.み","の.む"],
-        examples: [{"word":"飲","reading":"-の.み","meaning":"minum"},{"word":"飲む","reading":"のむ","meaning":"kosakata terkait minum"}]
+        examples: [{"word": "飲む", "reading": "のむ", "meaning": "to accept (e.g. demand condition)"}, {"word": "飲みもの", "reading": "のみもの", "meaning": "drink"}]
       }
     ]
   },
@@ -815,7 +815,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "bicara; cerita",
         onyomi: ["ワ"],
         kunyomi: ["はな.す","はなし"],
-        examples: [{"word":"話","reading":"はな.す","meaning":"bicara; cerita"},{"word":"話しかける","reading":"はなしかける","meaning":"kosakata terkait bicara; cerita"}]
+        examples: [{"word": "話す", "reading": "はなす", "meaning": "to speak (a language)"}, {"word": "話", "reading": "はなし", "meaning": "bicara; cerita"}, {"word": "電話", "reading": "でんわ", "meaning": "telephone (device)"}, {"word": "会話", "reading": "かいわ", "meaning": "conversation"}]
       },
       {
         id: "n5-l10-よ-み-8aad",
@@ -823,7 +823,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "membaca",
         onyomi: ["トウ","トク","ドク"],
         kunyomi: ["-よ.み","よ.む"],
-        examples: [{"word":"読","reading":"-よ.み","meaning":"membaca"},{"word":"読者","reading":"どくしゃ","meaning":"kosakata terkait membaca"}]
+        examples: [{"word": "読む", "reading": "よむ", "meaning": "to decipher"}, {"word": "読書", "reading": "どくしょ", "meaning": "reading (a book)"}]
       },
       {
         id: "n5-l10-かた-らう-8a9e",
@@ -831,7 +831,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "bahasa; kata",
         onyomi: ["ゴ"],
         kunyomi: ["かた.らう","かた.る"],
-        examples: [{"word":"語","reading":"かた.らう","meaning":"bahasa; kata"},{"word":"英語","reading":"えいご","meaning":"kosakata terkait bahasa; kata"}]
+        examples: [{"word": "日本語", "reading": "こほんこ", "meaning": "Jepang"}, {"word": "中国語", "reading": "つ", "meaning": "Chinese language chin s"}, {"word": "外国語", "reading": "か", "meaning": "aneh"}]
       },
       {
         id: "n5-l10-あい-9593",
@@ -839,7 +839,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "antara; waktu",
         onyomi: ["カン","ケン"],
         kunyomi: ["あい","あいだ","ま"],
-        examples: [{"word":"間","reading":"あい","meaning":"antara; waktu"},{"word":"洋間","reading":"ようま","meaning":"kosakata terkait antara; waktu"}]
+        examples: [{"word": "間", "reading": "あいだ", "meaning": "antara; waktu"}, {"word": "時間", "reading": "じかん", "meaning": "hour"}, {"word": "一年間", "reading": "いちねんかん", "meaning": "(period of) one year"}, {"word": "間に合う", "reading": "まにあう", "meaning": "to be in time (for)"}]
       },
       {
         id: "n5-l10-き-く-805e",
@@ -847,7 +847,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "mendengar; bertanya",
         onyomi: ["ブン","モン"],
         kunyomi: ["き.く","き.こえる"],
-        examples: [{"word":"聞","reading":"き.く","meaning":"mendengar; bertanya"},{"word":"新聞","reading":"しんぶん","meaning":"kosakata terkait mendengar; bertanya"}]
+        examples: [{"word": "聞える", "reading": "きこえる", "meaning": "memotong"}, {"word": "新聞", "reading": "しんぶん", "meaning": "kertas"}]
       },
       {
         id: "n5-l10-か-う-8cb7",
@@ -855,7 +855,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "membeli",
         onyomi: ["バイ"],
         kunyomi: ["か.う"],
-        examples: [{"word":"買","reading":"か.う","meaning":"membeli"},{"word":"買取","reading":"かいとり","meaning":"kosakata terkait membeli"}]
+        examples: [{"word": "買う", "reading": "かう", "meaning": "to pay for (a prostitute geisha etc.)"}, {"word": "買いもの", "reading": "かいもの", "meaning": "toko"}, {"word": "売買", "reading": "ばいばい", "meaning": "trade"}]
       },
       {
         id: "n5-l10-やす-まる-4f11",
@@ -863,7 +863,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "istirahat",
         onyomi: ["キュウ"],
         kunyomi: ["やす.まる","やす.む","やす.める"],
-        examples: [{"word":"休","reading":"やす.まる","meaning":"istirahat"},{"word":"休校","reading":"きゅうこう","meaning":"kosakata terkait istirahat"}]
+        examples: [{"word": "休む", "reading": "やすむ", "meaning": "to be absent"}, {"word": "休み", "reading": "やすみ", "meaning": "hari libur"}, {"word": "休日", "reading": "きゅうじつ", "meaning": "hari libur"}, {"word": "夏休み", "reading": "なつやすみ", "meaning": "musim panas"}]
       },
       {
         id: "n5-l10-と-き-6642",
@@ -871,7 +871,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "waktu; jam",
         onyomi: ["ジ"],
         kunyomi: ["-どき","とき"],
-        examples: [{"word":"時","reading":"-どき","meaning":"waktu; jam"},{"word":"日時","reading":"にちじ","meaning":"kosakata terkait waktu; jam"}]
+        examples: [{"word": "時", "reading": "とき", "meaning": "waktu; jam"}, {"word": "四時", "reading": "よじ", "meaning": "four o'clock"}, {"word": "一時間", "reading": "いちじかん", "meaning": "one hour"}, {"word": "時計", "reading": "とけい", "meaning": "clock"}]
       },
       {
         id: "n5-l10-シュウ-9031",
@@ -879,7 +879,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "minggu",
         onyomi: ["シュウ"],
         kunyomi: [],
-        examples: [{"word":"週","reading":"シュウ","meaning":"minggu"},{"word":"毎週","reading":"まいしゅう","meaning":"kosakata terkait minggu"}]
+        examples: [{"word": "一週間", "reading": "いっしゅうかん", "meaning": "one week"}, {"word": "来週", "reading": "らいしゅう", "meaning": "next week"}, {"word": "先週", "reading": "せんしゅう", "meaning": "last week"}, {"word": "今週", "reading": "こんしゅう", "meaning": "this week"}]
       },
       {
         id: "n5-l10-いう-9053",
@@ -887,7 +887,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "jalan",
         onyomi: ["トウ","ドウ"],
         kunyomi: ["いう","みち"],
-        examples: [{"word":"道","reading":"いう","meaning":"jalan"},{"word":"書道","reading":"しょどう","meaning":"kosakata terkait jalan"}]
+        examples: [{"word": "道", "reading": "みち", "meaning": "jalan"}, {"word": "道", "reading": "しやとっ", "meaning": "jalan"}, {"word": "水道", "reading": "すいどう", "meaning": "air"}, {"word": "道", "reading": "しよどう", "meaning": "jalan"}]
       }
     ]
   },
@@ -904,7 +904,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "sekarang",
         onyomi: ["キン","コン"],
         kunyomi: ["いま"],
-        examples: [{"word":"今","reading":"いま","meaning":"sekarang"},{"word":"今昔","reading":"こんじゃく","meaning":"kosakata terkait sekarang"}]
+        examples: [{"word": "今", "reading": "いま", "meaning": "sekarang"}, {"word": "今日", "reading": "きょう", "meaning": "hari ini"}, {"word": "今月", "reading": "こんげつ", "meaning": "bulan ini"}]
       },
       {
         id: "n5-l11-あ-う-4f1a",
@@ -912,7 +912,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "bertemu; perkumpulan",
         onyomi: ["エ","カイ"],
         kunyomi: ["あ.う","あ.わせる","あつ.まる"],
-        examples: [{"word":"会","reading":"あ.う","meaning":"bertemu; perkumpulan"},{"word":"巡り会う","reading":"めぐりあう","meaning":"kosakata terkait bertemu; perkumpulan"}]
+        examples: [{"word": "会一話カ", "reading": "ゝしゝオつ", "meaning": "conversaq o encontrar v rias caixas de vapor empilhadas para v rias pessoas v rias pessoas"}, {"word": "新年会し", "reading": "んねんかい", "meaning": "festa IIOV() se reunem- encontrar"}, {"word": "・会言義力", "reading": "しぎ", "meaning": "reumao"}]
       },
       {
         id: "n5-l11-やしろ-793e",
@@ -920,7 +920,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "perusahaan; kuil",
         onyomi: ["シャ"],
         kunyomi: ["やしろ"],
-        examples: [{"word":"社","reading":"やしろ","meaning":"perusahaan; kuil"},{"word":"神社","reading":"じんじゃ","meaning":"kosakata terkait perusahaan; kuil"}]
+        examples: [{"word": "社会", "reading": "しやかい", "meaning": "sociedade ( ) ( )"}, {"word": "会社か", "reading": "いしや", "meaning": "empresa 1 1"}, {"word": "神社", "reading": "じんじゃ", "meaning": "Shinto shrine"}]
       },
       {
         id: "n5-l11-たな-5e97",
@@ -928,7 +928,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "toko",
         onyomi: ["テン"],
         kunyomi: ["たな","みせ"],
-        examples: [{"word":"店","reading":"たな","meaning":"toko"},{"word":"書店","reading":"しょてん","meaning":"kosakata terkait toko"}]
+        examples: [{"word": "店", "reading": "みせ", "meaning": "toko"}, {"word": "店員", "reading": "てんいん", "meaning": "employee (of a store)"}, {"word": "売店", "reading": "ばいてん", "meaning": "stand"}]
       },
       {
         id: "n5-l11-エキ-99c5",
@@ -936,7 +936,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "stasiun",
         onyomi: ["エキ"],
         kunyomi: [],
-        examples: [{"word":"駅","reading":"エキ","meaning":"stasiun"},{"word":"駅前","reading":"えきまえ","meaning":"kosakata terkait stasiun"}]
+        examples: [{"word": "駅", "reading": "えき", "meaning": "stasiun"}, {"word": "駅長", "reading": "えきちょう", "meaning": "station master"}]
       },
       {
         id: "n5-l11-はな-82b1",
@@ -944,7 +944,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "bunga",
         onyomi: ["カ","ケ"],
         kunyomi: ["はな"],
-        examples: [{"word":"花","reading":"はな","meaning":"bunga"},{"word":"花弁","reading":"はなびら","meaning":"kosakata terkait bunga"}]
+        examples: [{"word": "花見はなみ血", "reading": "いいリい", "meaning": "Ob ( p de p"}, {"word": "花火", "reading": "はなび", "meaning": "api"}, {"word": "花屋", "reading": "はなや", "meaning": "florist"}]
       },
       {
         id: "n5-l11-くに-56fd",
@@ -952,7 +952,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "negara",
         onyomi: ["コク"],
         kunyomi: ["くに"],
-        examples: [{"word":"国","reading":"くに","meaning":"negara"},{"word":"国々","reading":"くにぐに","meaning":"kosakata terkait negara"}]
+        examples: [{"word": "外国", "reading": "がいこく", "meaning": "aneh"}, {"word": "中国", "reading": "ちゅうごく", "meaning": "China"}, {"word": "国際会議ぎ", "reading": "こくさいかい", "meaning": "international conference reuni o internacional"}]
       },
       {
         id: "n5-l11-しら-767d",
@@ -960,7 +960,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "putih",
         onyomi: ["ハク","ビャク"],
         kunyomi: ["しら-","しろ","しろ.い"],
-        examples: [{"word":"白","reading":"しら-","meaning":"putih"},{"word":"白状","reading":"はくじょう","meaning":"kosakata terkait putih"}]
+        examples: [{"word": "白い", "reading": "しろい", "meaning": "white"}, {"word": "白書", "reading": "はくしょ", "meaning": "kertas"}, {"word": "まっ白", "reading": "まっしろ", "meaning": "salju"}]
       },
       {
         id: "n5-l11-あ-き-7a7a",
@@ -968,7 +968,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "langit; kosong",
         onyomi: ["クウ"],
         kunyomi: ["あ.き","あ.く","あ.ける","から","す.かす","す.く","そら","むな.しい"],
-        examples: [{"word":"空","reading":"あ.き","meaning":"langit; kosong"},{"word":"空軍","reading":"くうぐん","meaning":"kosakata terkait langit; kosong"}]
+        examples: [{"word": "空", "reading": "そら", "meaning": "langit; kosong"}, {"word": "空気", "reading": "くうき", "meaning": "air"}, {"word": "大空", "reading": "おおぞら", "meaning": "luas"}]
       },
       {
         id: "n5-l11-テ-ン-96fb",
@@ -976,7 +976,7 @@ export const n5Lessons: Lesson[] = [
         meaning: "listrik",
         onyomi: ["デン"],
         kunyomi: [],
-        examples: [{"word":"電","reading":"デン","meaning":"listrik"},{"word":"祝電","reading":"しゅくでん","meaning":"kosakata terkait listrik"}]
+        examples: [{"word": "電話", "reading": "でんわ", "meaning": "telephone (device)"}, {"word": "電気", "reading": "でんき", "meaning": "kota"}, {"word": "電池", "reading": "でんち", "meaning": "battery"}]
       }
     ]
   }
